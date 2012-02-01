@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual C# Express 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Polarsoft.Diplomacy", "Polarsoft.Diplomacy\Polarsoft.Diplomacy.csproj", "{C709840E-49EB-4ADC-86CB-32B4025CA14F}"
+	ProjectSection(ProjectDependencies) = postProject
+		{74C2E847-677A-4456-A5D6-1412F8BB47F5} = {74C2E847-677A-4456-A5D6-1412F8BB47F5}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Polarsoft.Diplomacy.Daide", "Polarsoft.Diplomacy.Daide\Polarsoft.Diplomacy.Daide.csproj", "{5A1CE50D-0631-4D20-A1DC-4466CC52917F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HeadlessHoldBot", "examples\HeadlessHoldBot\HeadlessHoldBot.csproj", "{D11CC83F-01C4-4403-9C24-3588FC67EFA6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsBot", "examples\ConsBot\ConsBot.csproj", "{A60C7931-B30F-4594-BD1C-A780584EA976}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HoldBot", "examples\HoldBot\HoldBot.csproj", "{4ED4E104-CE96-4819-8569-40917389C4D4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Polarsoft.Utilities", "Polarsoft.Utilities\Polarsoft.Utilities.csproj", "{74C2E847-677A-4456-A5D6-1412F8BB47F5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C709840E-49EB-4ADC-86CB-32B4025CA14F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C709840E-49EB-4ADC-86CB-32B4025CA14F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C709840E-49EB-4ADC-86CB-32B4025CA14F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C709840E-49EB-4ADC-86CB-32B4025CA14F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A1CE50D-0631-4D20-A1DC-4466CC52917F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A1CE50D-0631-4D20-A1DC-4466CC52917F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A1CE50D-0631-4D20-A1DC-4466CC52917F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A1CE50D-0631-4D20-A1DC-4466CC52917F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D11CC83F-01C4-4403-9C24-3588FC67EFA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D11CC83F-01C4-4403-9C24-3588FC67EFA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D11CC83F-01C4-4403-9C24-3588FC67EFA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D11CC83F-01C4-4403-9C24-3588FC67EFA6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A60C7931-B30F-4594-BD1C-A780584EA976}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A60C7931-B30F-4594-BD1C-A780584EA976}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A60C7931-B30F-4594-BD1C-A780584EA976}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A60C7931-B30F-4594-BD1C-A780584EA976}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4ED4E104-CE96-4819-8569-40917389C4D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4ED4E104-CE96-4819-8569-40917389C4D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4ED4E104-CE96-4819-8569-40917389C4D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4ED4E104-CE96-4819-8569-40917389C4D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74C2E847-677A-4456-A5D6-1412F8BB47F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74C2E847-677A-4456-A5D6-1412F8BB47F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74C2E847-677A-4456-A5D6-1412F8BB47F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74C2E847-677A-4456-A5D6-1412F8BB47F5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

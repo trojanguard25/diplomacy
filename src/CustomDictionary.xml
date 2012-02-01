@@ -1,0 +1,157 @@
+<Dictionary>
+	<Words>
+		<Recognized>
+			<Word>Polarsoft</Word>
+        	<Word>Daide</Word>
+        	<Word>Bot</Word>
+        	<Word>passcode</Word>
+
+        	<Word>Bicostal</Word>
+		</Recognized>
+	</Words>
+	<Acronyms>
+		<CasingExceptions>
+			<!-- DAIDE Tokens -->
+
+			<Acronym>OPEN_BRACKET</Acronym>
+			<Acronym>CLOSE_BRACKET</Acronym>
+
+			<Acronym>ARMY</Acronym>
+			<Acronym>FLEET</Acronym>
+
+			<Acronym>CTO</Acronym>
+			<Acronym>CVY</Acronym>
+			<Acronym>HLD</Acronym>
+			<Acronym>MTO</Acronym>
+			<Acronym>SUP</Acronym>
+			<Acronym>VIA</Acronym>
+			<Acronym>DSB</Acronym>
+			<Acronym>RTO</Acronym>
+			<Acronym>BLD</Acronym>
+			<Acronym>REM</Acronym>
+			<Acronym>WVE</Acronym>
+
+			<Acronym>MBV</Acronym>
+			<Acronym>CST</Acronym>
+			<Acronym>ESC</Acronym>
+			<Acronym>FAR</Acronym>
+			<Acronym>HSC</Acronym>
+			<Acronym>NAS</Acronym>
+			<Acronym>NMB</Acronym>
+			<Acronym>NMR</Acronym>
+			<Acronym>NRN</Acronym>
+			<Acronym>NRS</Acronym>
+			<Acronym>NSA</Acronym>
+			<Acronym>NSC</Acronym>
+			<Acronym>NSF</Acronym>
+			<Acronym>NSP</Acronym>
+			<Acronym>NSU</Acronym>
+			<Acronym>NVR</Acronym>
+			<Acronym>NYU</Acronym>
+			<Acronym>YSC</Acronym>
+
+			<Acronym>SUC</Acronym>
+			<Acronym>BNC</Acronym>
+			<Acronym>CUT</Acronym>
+			<Acronym>DSR</Acronym>
+			<Acronym>NSO</Acronym>
+			<Acronym>RET</Acronym>
+
+			<Acronym>NCS</Acronym>
+			<Acronym>NEC</Acronym>
+			<Acronym>ECS</Acronym>
+			<Acronym>SEC</Acronym>
+			<Acronym>SCS</Acronym>
+			<Acronym>SWS</Acronym>
+			<Acronym>WCS</Acronym>
+			<Acronym>NWC</Acronym>
+
+			<Acronym>SPR</Acronym>
+			<Acronym>SUM</Acronym>
+			<Acronym>FAL</Acronym>
+			<Acronym>AUT</Acronym>
+			<Acronym>WIN</Acronym>
+
+			<Acronym>CCD</Acronym>
+			<Acronym>DRW</Acronym>
+			<Acronym>FRM</Acronym>
+			<Acronym>GOF</Acronym>
+			<Acronym>HLO</Acronym>
+			<Acronym>HST</Acronym>
+			<Acronym>HUH</Acronym>
+			<Acronym>IAM</Acronym>
+			<Acronym>LOD</Acronym>
+			<Acronym>MAP</Acronym>
+			<Acronym>MDF</Acronym>
+			<Acronym>MIS</Acronym>
+			<Acronym>NME</Acronym>
+			<Acronym>NOT</Acronym>
+			<Acronym>NOW</Acronym>
+			<Acronym>OBS</Acronym>
+			<Acronym>OFF</Acronym>
+			<Acronym>ORD</Acronym>
+			<Acronym>OUT</Acronym>
+			<Acronym>PRN</Acronym>
+			<Acronym>REJ</Acronym>
+			<Acronym>SCO</Acronym>
+			<Acronym>SLO</Acronym>
+			<Acronym>SND</Acronym>
+			<Acronym>SUB</Acronym>
+			<Acronym>SVE</Acronym>
+			<Acronym>THX</Acronym>
+			<Acronym>TME</Acronym>
+			<Acronym>YES</Acronym>
+			<Acronym>ADM</Acronym>
+			<Acronym>SMR</Acronym>
+
+			<Acronym>AOA</Acronym>
+			<Acronym>BTL</Acronym>
+			<Acronym>ERR</Acronym>
+			<Acronym>LVL</Acronym>
+			<Acronym>MRT</Acronym>
+			<Acronym>MTL</Acronym>
+			<Acronym>NPB</Acronym>
+			<Acronym>NPR</Acronym>
+			<Acronym>PDA</Acronym>
+			<Acronym>PTL</Acronym>
+			<Acronym>RTL</Acronym>
+			<Acronym>UNO</Acronym>
+			<Acronym>DSD</Acronym>
+
+			<Acronym>ALY</Acronym>
+			<Acronym>AND</Acronym>
+			<Acronym>BWX</Acronym>
+			<Acronym>DMZ</Acronym>
+			<Acronym>ELS</Acronym>
+			<Acronym>EXP</Acronym>
+			<Acronym>FWD</Acronym>
+			<Acronym>FCT</Acronym>
+			<Acronym>FOR</Acronym>
+			<Acronym>HOW</Acronym>
+			<Acronym>IDK</Acronym>
+			<Acronym>IFF</Acronym>
+			<Acronym>INS</Acronym>
+			<Acronym>OCC</Acronym>
+			<Acronym>ORR</Acronym>
+			<Acronym>PCE</Acronym>
+			<Acronym>POB</Acronym>
+			<Acronym>PRP</Acronym>
+			<Acronym>QRY</Acronym>
+			<Acronym>SCD</Acronym>
+			<Acronym>SRY</Acronym>
+			<Acronym>SUG</Acronym>
+			<Acronym>THK</Acronym>
+			<Acronym>THN</Acronym>
+			<Acronym>TRY</Acronym>
+			<Acronym>VSS</Acronym>
+			<Acronym>WHT</Acronym>
+			<Acronym>WHY</Acronym>
+			<Acronym>XDO</Acronym>
+			<Acronym>XOY</Acronym>
+			<Acronym>YDO</Acronym>
+			<Acronym>CHO</Acronym>
+			<Acronym>BCC</Acronym>
+			<Acronym>UNT</Acronym>
+		</CasingExceptions>
+	</Acronyms>
+</Dictionary>
