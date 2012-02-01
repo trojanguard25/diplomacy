@@ -3,3 +3,11 @@
 /src/UpgradeLog.XML
 /src/Polarsoft.Diplomacy.FxCop
 /src/Polarsoft.Diplomacy.suo
+/src/Polarsoft.Diplomacy.Daide/obj/
+/src/Polarsoft.Diplomacy/obj/
+/src/Polarsoft.Utilities/obj/
+/src/examples/ConsBot/obj/
+/src/examples/ConsBot/obj/
+/src/examples/HeadlessHoldBot/obj/
+/src/examples/HoldBot/obj/
+
