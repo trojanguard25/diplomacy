@@ -17,7 +17,7 @@ namespace Polarsoft.Diplomacy.AI
         public Main(string host, int port)
         {
             InitializeComponent();
-            this.bot = new Markos(host, port, this);
+            this.bot = new markos(host, port, this);
         }
     }
 }

@@ -20,5 +20,17 @@ namespace Polarsoft.Diplomacy.AI
             this.parent = parent;
             base.Connect(host, port, "Markos", "0.1");
         }
+
+        delegate void VoidDelegate();
+
+        protected override void ProcessOFF(TokenMessage msg)
+        {
+            base.ProcessOFF(msg);
+            this.parent.Invoke(new VoidDelegate(delegate
+            {
+                this.parent.Close();
+            }));
+
+        }
     }
 }
