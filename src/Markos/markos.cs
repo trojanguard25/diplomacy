@@ -12,41 +12,64 @@ namespace Polarsoft.Diplomacy.AI
 {
     class markos : BaseBot
     {
-        Form parent;
+        Main parent;
+        string version;
+        string name;
 
-        public markos(string host, int port, Form parent)
+        public markos(string host, int port, Main parent)
             : base()
         {
+            name = "Markos";
+            version = "0.1";
             this.parent = parent;
-            base.Connect(host, port, "Markos", "0.1");
+            base.Connect(host, port, name, version);
+            parent.Text = name + " " + version;
         }
 
         protected override void ProcessNOW(TokenMessage msg)
         {
+            this.UpdateParent();
+
             switch (this.Game.Turn.Phase)
             {
                 case Phase.Spring:
-                    randomOrders();
+                    RandomOrders();
                     break;
                 case Phase.Summer:
-                    randomRetreat();
+                    RandomRetreat();
                     break;
                 case Phase.Fall:
-                    randomOrders();
+                    RandomOrders();
                     break;
                 case Phase.Autumn:
-                    randomRetreat();
+                    RandomRetreat();
                     break;
                 case Phase.Winter:
-                    randomBuild();
+                    RandomBuild();
                     break;
                 default:
                     break;
             }
-            SubmitOrders();
+            SetReady();
+            //SubmitOrders();
         }
 
-        public void randomOrders()
+        protected List<string> getPowers()
+        {
+            List<string> powers = new List<string>();
+            foreach (Power pow in this.Game.Powers.Values)
+            {
+                powers.Add(pow.ToString());
+            }
+            return powers;
+        }
+
+        protected string GetGameTime()
+        {
+            return this.Game.Turn.ToString();
+        }
+
+        protected void RandomOrders()
         {
             foreach (Unit unit in this.Power.Units)
             {
@@ -78,7 +101,7 @@ namespace Polarsoft.Diplomacy.AI
             }
         }
 
-        public void randomRetreat()
+        protected void RandomRetreat()
         {
             foreach (Unit unit in this.Power.Units)
             {
@@ -94,7 +117,7 @@ namespace Polarsoft.Diplomacy.AI
             }
         }
 
-        public void randomBuild()
+        protected void RandomBuild()
         {
             int numBuilds = this.Power.OwnedSupplyProvinces.Count - this.Power.Units.Count;
             if (numBuilds > 0)
@@ -150,6 +173,30 @@ namespace Polarsoft.Diplomacy.AI
                 this.parent.Close();
             }));
 
+        }
+
+        protected void UpdateParent()
+        {
+            //this.parent;
+            this.parent.Invoke(new VoidDelegate(delegate
+            {
+                this.parent.UpdatePowersListBox(this.getPowers());
+                this.parent.UpdateGameTime(this.GetGameTime());
+            }));
+        }
+
+        protected void SetReady()
+        {
+            this.parent.Invoke(new VoidDelegate(delegate
+            {
+                this.parent.SetReady();
+            }));
+
+        }
+
+        public void SendOrders()
+        {
+            SubmitOrders();
         }
     }
 }
